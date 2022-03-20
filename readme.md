@@ -53,4 +53,4 @@ result:
 \end{document}\\
 ```
 
-![Alt text](table.png?raw=true "Table"
+![Alt text](table.png?raw=true "Table")
