@@ -17,9 +17,9 @@ Numpy nd-array to LaTeX table.
 sample
 
 ```
- pandas_table = pd.DataFrame({'Rows':['rowA','rowB','rowC'],
-                    'colA':[2,3,5],
-                    'colB':[4,5,6]}).set_index(['Rows'])
+from buildTable import texTable
+import pandas as pd
+import numpy as np
 
 
 np_table = np.array([[2,3,5],[4,5,6]])
@@ -53,4 +53,4 @@ result:
 \end{document}\\
 ```
 
-![Alt text](table.png?raw=true "Table")
+![Alt text](table.png?raw=true "Table"
